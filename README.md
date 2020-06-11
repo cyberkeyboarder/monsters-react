@@ -2,6 +2,8 @@
 
 Simple exercise to deploy a React project to GitHub's `gh-pages`.
 
+![alt text](https://github.com/cyberkeyboarder/monsters-react/blob/master/screenshot.png?raw=true)
+
 Uses `yarn`
 
 ```bash
