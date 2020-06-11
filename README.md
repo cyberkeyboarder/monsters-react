@@ -17,11 +17,20 @@ Connect repo to project & add package to Yarn:
 
 ```bash
 git remote add origin git@github.com:cyberkeyboarder/monsters-react.git
+or
+git remote rm origin
+git remote add origin https://github.com/cyberkeyboarder/monsters-react.git
 yarn add gh-pages
 
 git remote -v
 origin  git@github.com:cyberkeyboarder/monsters-react.git (fetch)
 origin  git@github.com:cyberkeyboarder/monsters-react.git (push)
+
+or
+
+git remote -v
+origin  https://github.com/cyberkeyboarder/monsters-react.git (fetch)
+origin  https://github.com/cyberkeyboarder/monsters-react.git (push)
 ```
 
 ### Modify "package.json"
