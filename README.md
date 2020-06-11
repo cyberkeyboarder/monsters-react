@@ -1,10 +1,8 @@
-# `Monsters-React` Deployed to GitHub Pages
+# Monsters-React Deployed to GitHub Pages
 
 Simple exercise to deploy a React project to GitHub's `gh-pages`.
 
 ![alt text](https://github.com/cyberkeyboarder/monsters-react/blob/master/img/screenshot.png?raw=true)
-
-<!-- <img src="https://github.com/cyberkeyboarder/monsters-react/blob/master/img/screenshot.png" width="48"> -->
 
 * Uses `yarn`
 
@@ -36,6 +34,8 @@ git remote -v
 origin  https://github.com/cyberkeyboarder/monsters-react.git (fetch)
 origin  https://github.com/cyberkeyboarder/monsters-react.git (push)
 ```
+
+* Ensure **Settings -> GitHub Pages** Source is set to: `gh-pages branch`
 
 ### Modify "package.json"
 
